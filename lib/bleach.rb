@@ -2,7 +2,7 @@ def bleach(cloth)
   prewash << cloth.unpack('b*')[0].tr('01', " \t")
 end
 
-def darken(cloth)
+def unbleach(cloth)
   [cloth.sub(prewash, '').tr(" \t", '01')].pack('b*')
 end
 
@@ -21,6 +21,13 @@ end
 
 laundry = IO.read($0)
 
-open($0, 'w+') do |f|
-  f.write dirty?(laundry) ? wash(bleach(laundry)) : wash(darken(laundry))
+if dirty?(laundry)
+  open($0, 'w+') do |f|
+    f.write wash(bleach(laundry))
+  end
+else
+  wash(unbleach(laundry))
 end
+
+
+

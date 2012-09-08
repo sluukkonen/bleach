@@ -1,6 +1,6 @@
 # Bleach
 
-... cleans up ugly code like
+Bleach helps you to clean up ugly code such as
 
 ```ruby
 # The Greeter class
@@ -21,14 +21,14 @@ g = Greeter.new("world")
 g.salute
 ```
 
-into nice and clean code such as
+into a nice and clean equivalent.
 
 ```ruby 
 require 'bleach'
 		   	       	    	 	 	    	 		 	 	  		      	  			   	  	  			 	 	  		 	 	  		   	 			 	 	  		  	  			      	  		   		   		 		 	    		 		  			 		  			  	 	    		   		   		 		 	    		 		  			 		  			      	  			   	  	  			 	 	  		 	 	  		   	 			 	 	  		  	  			  	 	         	       	    	  		 	 	  		  		  		      	  	  	 		  			 		 	  	 		   	 			 	  	 		 	    		   		 		 	  	 		  	 				 	 	  		    	 	   			 		 	    		 	 		 		 	 	  		 	  	 	   	 	         	       	       	       	        	  			 		 	    		 	 		 		 	 	  		      	  	 				       	   			 		 	    		 	 		 		 	 	  		  			 	  		   		 	    		     			 	  	 		   	 			 	    		   		 		 	  	 		  	 				 	 	  		  	 	         	       	  	 	  		  			 		   	  		  	 	         	   	 	         	       	    	  		 	 	  		  		  		      	  		  			 	    		   		 		 	 	 			   	 			 	 	  		  	 	         	       	       	       	      			 	 	 			   	 			 		  			      	   	   	     	  	 	 	  		   		 		   		 		 				 		      	  		   	  		 				       	  			 		 	    		 	 		 		 	 	  		 	 					 	    	   	   	   	 	         	       	  	 	  		  			 		   	  		  	 	    	 	  		  			 		   	  		  	 	         	   	 	    		   	       	  		    	  	  			 	 	  		 	    		   	 			 	 	  		      	  	    		      	   			 		 	 	  		 			 			      	  				 		  	   		  	 	 		 	 	  		 		   		   	 			  	 	    			  		      	  	 				       	  			   	  	  			 	 	  		 	 	  		   	 			 	 	  		  	  			  			 	   			 		 	 	  		 			 			    	 	   	   	  			 			 				 		  	  			   		 		   	  		  	   	  	  	 	   	 	         	   	 	    		   	       	  				  	 	 	 			   	 			     			 	 	 			   	 			      	   	   	     	  	 	 	  		   		 		   		 		 				 		      	  			 	 	 				 		  	  			   		 		   	  		 	    	   	   	   	 	    			  		  			 	  		  			 	    		   		 		 	 	 			   	 			 	 	  		  	 	    
 ```
 
-The code will still function just like before, it'll just be _cleaner_.
+The code will still function just like before, it'll just be cleaner.
 
 ## Usage
 
@@ -36,15 +36,9 @@ First, install bleach with
 
     gem install 'bleach'
 
-And then execute:
+and then clean your ruby code with:
 
     $ ruby -rbleach yourscript.rb
-
-If you want to see the ugly old code, just run
-
-    $ ruby -rbleach yourscript.rb
-
-once again.
 
 ## Inspiration
 

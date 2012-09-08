@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
   gem.name          = "bleach"
-  gem.version       = "0.1"
+  gem.version       = "0.2"
   gem.authors       = ["Sakumatti Luukkonen"]
   gem.email         = ["sakumatti.luukkonen@gmail.com"]
   gem.summary       = %q{Cleaning up Ruby code, Conway style.}
